@@ -1,8 +1,5 @@
 # First-full-stack
-# First-full-stack
-# First-full-stack
-# First-full-stack
-# First-full-stack
+
 
 
 1. go to the working dir
