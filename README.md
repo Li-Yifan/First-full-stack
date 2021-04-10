@@ -70,7 +70,11 @@ Quit the server with CONTROL-C.
 
 ### Close
 
-1. deactivate
+1. deactivate virtualenv 
+```
+(17site) (base) ➜  missweb deactivate
+(base) ➜  missweb 
+```
 
 ## Useful links:
 
