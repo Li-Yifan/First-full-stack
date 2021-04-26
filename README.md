@@ -79,3 +79,5 @@ Quit the server with CONTROL-C.
 ## Useful links:
 
 - Deployed Django on [Alicloud](https://www.alibabacloud.com/blog/deploy-django-application-on-alibaba-cloud_595833)
+
+can use gitignore to igone the pycache file
