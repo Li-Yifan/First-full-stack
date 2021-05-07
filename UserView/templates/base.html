@@ -10,14 +10,17 @@ eet">
 <div>
 
 {% if user.is_authenticated %}
-<p>Hi {{ user.username }}!</p>
-<p><a href="{% url 'logout' %}">Log out</a></p>
+    <p>Hi {{ user.username }}!</p>
+    <p><a href="{% url 'logout' %}">Log out</a></p>
 {% else %}
-<p>You are not logged in.</p>
-<a href="{% url 'login' %}">Log In</a>
+    <p>You are not logged in.</p>
+    <a href="{% url 'login' %}">Log In</a>
 {% endif %}
-{% block content %}
 
+
+
+
+{% block content %}
 {% endblock content %}
 </div>
 
