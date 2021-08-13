@@ -1,5 +1,15 @@
 <!-- templates/home.html -->
 {% extends 'base.html' %}
+{% load static %}
+
+
 {% block content %}
-<h1>Hi this is Homepage</h1>
+<html>
+    <header>
+        <h1>没想到你这么快就找到了这里！</h1>
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    </header>
+    <h2>Sorry, the site is still under development.....</h2>
+</html>
+
 {% endblock content %}
